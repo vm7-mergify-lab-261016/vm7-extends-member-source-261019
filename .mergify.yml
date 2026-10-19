@@ -1,0 +1,6 @@
+merge_protections:
+  - name: VM7 three-principal source owner approval veto 261019
+    if:
+      - base = vm7-extends-member-sensitive-261019
+    success_conditions:
+      - approved-reviews-by = onecursor13-vm7-primary-20261012
